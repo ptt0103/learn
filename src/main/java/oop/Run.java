@@ -2,7 +2,14 @@ package oop;
 
 public class Run {
     public static void main(String[] args) {
-//        Animal dog = new Dog("dog");
+        Animal dog = new Dog("dog");
+        Animal dog2 = dog;
+        System.out.println(dog2);
+        dog.setName("dogg");
+
+        System.out.println(dog2);
+        System.out.println(dog == dog2);
+//        System.out.println(dog instanceof Animal);
 //        dog.hello();
 //        dog.makeSound();
 //        dog.makeAction();
@@ -28,9 +35,9 @@ public class Run {
 //        dog2.hello();
 //        dog2.makeSound();
 
-        Person a = new Employee();
-        a.doSomething();
-        Person b= new Person();
-        b.doSomething();
+//        Person a = new Employee();
+//        a.doSomething();
+//        Person b= new Person();
+//        b.doSomething();
     }
 }

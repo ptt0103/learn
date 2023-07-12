@@ -21,4 +21,11 @@ abstract class Animal implements Action{
     public void hello(){
         System.out.println("hello");
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

@@ -8,6 +8,8 @@ public class HelloWorld {
         int a = 10;
         boolean b = false;
 
+        System.out.println("      a".isBlank());
+
 //        System.out.println(a*a *PI);
 
         Student student = new Student();
@@ -50,16 +52,7 @@ public class HelloWorld {
 //             ) {
 //            System.out.print(ele + " ");
 //        }
-        String x= "a";
-        String y = "a";
 
-        System.out.println(System.identityHashCode(x.hashCode()));
-        System.out.println(System.identityHashCode(y.hashCode()));
-
-        x = "b";
-
-        System.out.println(System.identityHashCode(x.hashCode()));
-        System.out.println(System.identityHashCode(y.hashCode()));
 
     }
 }

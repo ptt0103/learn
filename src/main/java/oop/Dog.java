@@ -17,4 +17,6 @@ public class Dog extends Animal implements Action {
     public void makeAction() {
         System.out.println("do something");
     }
+
+
 }
